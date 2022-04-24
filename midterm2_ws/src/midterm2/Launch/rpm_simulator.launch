@@ -1,0 +1,3 @@
+<launch>
+  <node name="rpm_publisher_node1" pkg="midterm2" type="rpm_pub" />
+</launch>
