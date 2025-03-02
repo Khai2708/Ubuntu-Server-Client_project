@@ -1,8 +1,8 @@
-# weather2 project
+# Ubuntu weather(Survive & Client) project
 
-Creating the weather2 project
-''bash
-sadbek@ubuntu:~/catkin_ws$ mkdir weather2_ws
+- Creating the weather2 project
+```
+asadbek@ubuntu:~/catkin_ws$ mkdir weather2_ws
 asadbek@ubuntu:~/catkin_ws$ cd weather2_ws/
 asadbek@ubuntu:~/catkin_ws/weather2_ws$ mkdir src
 asadbek@ubuntu:~/catkin_ws/weather2_ws$ cd .s
@@ -141,9 +141,9 @@ Scanning dependencies of target weather2_generate_messages
 [100%] Linking CXX executable /home/asadbek/catkin_ws/weather2_ws/devel/lib/weather2/service_client
 [100%] Built target service_client
 -----------------------------------------------------------------------
-
-Checking the weather2 services in the new tab
-
+```
+- Checking the weather2 services in the new tab
+```
 asadbek@ubuntu:~/catkin_ws/weather2_ws$ source devel/setup.bash
 asadbek@ubuntu:~/catkin_ws/weather2_ws$ rossrv list 
 control_msgs/QueryCalibrationState
@@ -229,9 +229,9 @@ asadbek@ubuntu:~/catkin_ws/weather2_ws$ rosrun weather2 service_server
 [ INFO] [1650780194.233203222]: Connected to master at [localhost:11311]
 [ INFO] [1650780194.239545186]: Weather Check Server Running...
 ------------------------------------------------------------------
-
-###Test the service in the new tab
-
+```
+- Test the service in the new tab
+```
 asadbek@ubuntu:~/catkin_ws/weather2_ws$ source devel/setup.bash
 asadbek@ubuntu:~/catkin_ws/weather2_ws$ rosservice list 
 /rosout/get_loggers
@@ -304,5 +304,5 @@ PLease select your area: 15
 PLease select your area: 0
 [ INFO] [1650781347.201985254]: Exiting Application...
 asadbek@ubuntu:~/catkin_ws/weather2_ws$ 
-
+```
 
