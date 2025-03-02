@@ -1,4 +1,4 @@
-#Ubuntu midterm project
+#Ubuntu speed_limit (Service & Client) project
 ```
 asadbek@ubuntu:~/catkin_ws$ mkdir midterm2
 asadbek@ubuntu:~/catkin_ws$ cd midterm2/
@@ -161,7 +161,7 @@ process[speed_calculator_node1-2]: started with pid [105271]
 [ WARN] [1650810784.674019862]:  No Value set for speed_limit server parameter.
 ----------------------------------------------------------------------
 ```
-### Rosparam
+### seting speed limit manually
 ```
 asadbek@ubuntu:~/catkin_ws/sms-project4$ source devel/setup.bash
 asadbek@ubuntu:~/catkin_ws/sms-project4$ rosparam set speed_limit 70
