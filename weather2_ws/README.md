@@ -1,6 +1,6 @@
 # weather2 project
 
-- Creating the weather2 project
+Creating the weather2 project
 ''bash
 sadbek@ubuntu:~/catkin_ws$ mkdir weather2_ws
 asadbek@ubuntu:~/catkin_ws$ cd weather2_ws/
