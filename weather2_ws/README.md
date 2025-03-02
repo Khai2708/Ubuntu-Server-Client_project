@@ -1,4 +1,4 @@
-# Ubuntu weather(Survive & Client) project
+# Ubuntu weather (Client-Server) project
 
 - Creating the weather2 project
 ```
