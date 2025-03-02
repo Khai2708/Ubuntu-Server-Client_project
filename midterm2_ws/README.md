@@ -1,5 +1,5 @@
-#project midtrem 2
-
+#Ubuntu midterm project
+```
 asadbek@ubuntu:~/catkin_ws$ mkdir midterm2
 asadbek@ubuntu:~/catkin_ws$ cd midterm2/
 asadbek@ubuntu:~/catkin_ws/midterm2$ mkdir src
@@ -21,9 +21,10 @@ Build space: /home/asadbek/catkin_ws/midterm2/build
 Devel space: /home/asadbek/catkin_ws/midterm2/devel
 Install space: /home/asadbek/catkin_ws/midterm2/install
 Creating symlink "/home/asadbek/catkin_ws/midterm2/src/CMakeLists.txt" pointing to "/opt/ros/noetic/share/catkin/cmake/toplevel.cmake"
-####
+
+
 #### Running command: "cmake /home/asadbek/catkin_ws/midterm2/src -DCATKIN_DEVEL_PREFIX=/home/asadbek/catkin_ws/midterm2/devel -DCMAKE_INSTALL_PREFIX=/home/asadbek/catkin_ws/midterm2/install -G Unix Makefiles" in "/home/asadbek/catkin_ws/midterm2/build"
-####
+###
 -- The C compiler identification is GNU 9.4.0
 -- The CXX compiler identification is GNU 9.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -159,8 +160,10 @@ process[speed_calculator_node1-2]: started with pid [105271]
 [ WARN] [1650810784.574464245]:  No Value set for speed_limit server parameter.
 [ WARN] [1650810784.674019862]:  No Value set for speed_limit server parameter.
 ----------------------------------------------------------------------
-
-Casadbek@ubuntu:~/catkin_ws/sms-project4$ source devel/setup.bash
+```
+### Rosparam
+```
+asadbek@ubuntu:~/catkin_ws/sms-project4$ source devel/setup.bash
 asadbek@ubuntu:~/catkin_ws/sms-project4$ rosparam set speed_limit 70
 asadbek@ubuntu:~/catkin_ws/sms-project4$ rosparam get speed_limit
 70
@@ -173,6 +176,7 @@ asadbek@ubuntu:~/catkin_ws/sms-project4$ rosparam list
 /rosversion
 /run_id
 /speed_limit
+```
 
 
 
